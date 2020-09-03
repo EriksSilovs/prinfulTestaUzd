@@ -1,0 +1,110 @@
+body {
+    background: #101010;
+    position: sticky;
+    text-align: center;
+    text-emphasis: 50pt; ;
+    color: snow;
+    font-size: 12pt;
+    font-family: georgia, garamond, bold; 
+    
+
+  }
+.gen_text{
+    font-size: 30pt;
+    font-family: georgia, garamond, bold; 
+    font-size:16px;
+
+}
+a{
+    color: snow;
+}
+a:hover{
+     
+    background:rgb(107, 80, 133, 0.9);
+    cursor: pointer;
+    transition-delay: 100ms;
+}
+ .header{
+     color: #fff;
+ }
+
+ table{
+     width: 50%;
+     margin: 30px auto;
+     border-collapse: collapse;
+ }
+ tr{
+     border-bottom: 1px solid grey;
+     text-decoration-color: snow;
+ }
+ tr:hover{
+     background: rgb(117, 117, 117);
+     stroke-dashoffset: 1%;
+ }
+ th, td{
+     border: none;
+     height: 30px;
+     padding: 2px;
+ }
+
+ .delete{
+     color:#fff;
+     text-align: center;
+     
+ }
+ a:hover{
+     
+     background:rgb(104, 103, 105);
+     cursor: pointer;
+     transition-delay: 100ms;
+ }
+
+.edit{
+    color:#fff;
+    text-align: center;
+    
+}
+
+
+input #gen_input {
+    
+    width: 200px;
+    height: 200px;
+    
+}
+
+#gen_input:active {
+    width: auto; 
+    transition:  0.3s ease 0s;  
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(25, 169, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgba(25, 169, 0, 0.8 );
+}
+
+
+ button{
+    font-family: "Montserrat" sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+#atpakal{
+    background-color: red;
+    position: left;
+    
+
+}
